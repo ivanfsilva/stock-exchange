@@ -19,9 +19,19 @@ Estudar e praticar TypeScript
 ## Infraestrutura Utilizada e suas versões
 
 * node.js v12.18.2
+* Bootstrap v4.6.0
 
 ## Para rodar a aplicação
 
+Dentro da pasta frontend, abra o terminal e execute o comando
+`npm run server` que vai automaticamente abrir o navegador padrão. 
+
+Caso não abra digita o URL `localhost 3000` no seu navegador.
+
+
+
 Dentro da pasta frontend abra o terminal e execute o comando: 
-`npm install` para instalar as dependências necessárias ao projeto
+`npm install` para instalar as dependências necessárias ao projeto. 
+
+
 
