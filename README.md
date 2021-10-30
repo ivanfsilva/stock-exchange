@@ -44,4 +44,7 @@ Caso não abra digita o URL `localhost 3000` no seu navegador.
 Se precisar compilar manualmente, executar na pasta frontend o 
 comando `npm run compile`
 
+para compilar e rodar a aplicação ao mesmo tempo, execute o 
+comando `npm run start`
+
 
