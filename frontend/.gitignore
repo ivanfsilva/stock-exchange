@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+node_modules
 /servidor-api/node_modules
 /.pnp
 .pnp.js
@@ -9,6 +10,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -43,6 +45,7 @@ frontend/.idea
 /nbdist/
 /.nb-gradle/
 build/
+dist/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
