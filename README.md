@@ -18,7 +18,7 @@ Estudar e praticar TypeScript
 
 ## Infraestrutura Utilizada e suas versões
 
-* node.js v12.18.2
+* node.js v10.21.0
 * Bootstrap v4.6.0
 * TypeScript v4.2.2
 
