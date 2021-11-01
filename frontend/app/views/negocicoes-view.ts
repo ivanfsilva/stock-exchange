@@ -1,7 +1,7 @@
 import { Negociacoes } from "../models/negociacoes.js";
 import { View } from "./view.js";
 
-export class NegocicoesView extends View {
+export class NegocicoesView extends View<Negociacoes> {
 
     template( model: Negociacoes ): string {
         return `
@@ -30,7 +30,5 @@ export class NegocicoesView extends View {
         `;
     }
 
-    update( model: Negociacoes ): void {
-        this.elemento.innerHTML = this.template(model);
-    }
+
 }

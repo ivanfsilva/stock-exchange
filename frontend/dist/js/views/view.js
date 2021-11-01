@@ -1,18 +1,12 @@
-export class View<T> {
-
-    protected elemento: HTMLElement;
-
-    constructor(seletor: string) {
+export class View {
+    constructor(seletor) {
         this.elemento = document.querySelector(seletor);
     }
-
-    update(model: T): void {
+    update(model) {
         const template = this.template(model);
         this.elemento.innerHTML = template;
     }
-
-    template(model: T): string {
+    template(model) {
         throw Error('Classe filha precisa implementar o método template');
     }
-
 }
